@@ -1,27 +1,28 @@
 Package: didimputation
 Type: Package
 Title: Imputation Estimator from Borusyak, Jaravel, and Spiess (2021)
-Version: 0.3.0
+Version: 0.5.0
 Authors@R: 
-    c(person(given = "Kyle",
-             family = "Butts",
-             role = c("aut","cre"),
-             email = "kyle.butts@colorado.edu",
-             comment = c(ORCID = "0000-0002-9048-8059")))
+    c(person(
+      given = "Kyle",
+      family = "Butts",
+      role = c("aut", "cre"),
+      email = "buttskyle96@gmail.com",
+      comment = c(ORCID = "0000-0002-9048-8059")
+    ))
 Description: Estimates Two-way Fixed Effects difference-in-differences/event-study models using the imputation-based approach proposed by Borusyak, Jaravel, and Spiess (2021).
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.1
-LinkingTo: Rcpp, RcppArmadillo
-Depends: R (>= 2.10), fixest (>= 0.10.0), data.table (>= 1.10.0)
-Imports: Matrix, magrittr, Rcpp, broom, dplyr, glue, stringr, purrr,
-        tidyr
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.0), fixest (>= 0.13.2), data.table (>= 1.10.0)
+Imports: Matrix
 Suggests: haven, testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://github.com/kylebutts/didimputation
 License: MIT + file LICENSE
-NeedsCompilation: yes
-Packaged: 2022-08-25 19:31:28 UTC; kylebutts
-Author: Kyle Butts [aut, cre] (<https://orcid.org/0000-0002-9048-8059>)
-Maintainer: Kyle Butts <kyle.butts@colorado.edu>
+NeedsCompilation: no
+Packaged: 2025-12-15 15:21:11 UTC; kbutts
+Author: Kyle Butts [aut, cre] (ORCID: <https://orcid.org/0000-0002-9048-8059>)
+Maintainer: Kyle Butts <buttskyle96@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-08-25 20:02:33 UTC
+Date/Publication: 2025-12-17 06:40:41 UTC
